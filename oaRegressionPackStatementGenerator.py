@@ -1,5 +1,4 @@
 import sys
-# Online Python - IDE, Editor, Compiler, Interpreter
 
 def camelCaseInput(input):
     input_statement = ""
