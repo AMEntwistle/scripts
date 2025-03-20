@@ -41,7 +41,7 @@ if (jsonData.tracks && jsonData.tracks.length > 0) {
 
 // Combine conditions into the SQL query
 if (conditions.length > 0) {
-  sqlQuery += 'where ' + conditions.join(' and ');
+  sqlQuery += 'where ' + conditions.join('\n  and ');
 }
 
 console.log(sqlQuery);
